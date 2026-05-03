@@ -46,11 +46,11 @@ try:
         with open(MODEL_PATH, 'rb') as file:
             # Use our custom unpickler instead of standard pickle.load
             model = ModelUnpickler(file).load()
-        print("✅ Model loaded successfully using ModelUnpickler")
+        print("Model loaded successfully using ModelUnpickler")
     else:
         print(f"⚠️ Warning: {MODEL_PATH} not found.")
 except Exception as e:
-    print(f"❌ Error loading model: {e}")
+    print(f"Error loading model: {e}")
 
 # --- API ENDPOINTS ---
 
