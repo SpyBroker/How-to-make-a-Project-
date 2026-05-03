@@ -2,7 +2,7 @@ import pickle
 
 class SalaryModel:
     def __init__(self):
-        self.base = 3000
+        self.base = 30000
         self.exp_coeff = 5000
         self.skill_coeff = 2000
 
