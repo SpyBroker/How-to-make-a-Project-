@@ -48,7 +48,7 @@ try:
             model = ModelUnpickler(file).load()
         print("Model loaded successfully using ModelUnpickler")
     else:
-        print(f"⚠️ Warning: {MODEL_PATH} not found.")
+        print(f"Warning: {MODEL_PATH} not found.")
 except Exception as e:
     print(f"Error loading model: {e}")
 
